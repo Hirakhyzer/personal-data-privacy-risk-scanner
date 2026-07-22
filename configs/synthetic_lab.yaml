@@ -1,0 +1,19 @@
+seed: 42
+documents: 70
+risk_classes:
+  low: "score < 0.32"
+  medium: "0.32 <= score < 0.62"
+  high: "0.62 <= score < 0.82"
+  critical: "score >= 0.82"
+entity_types:
+  - person_name
+  - email
+  - phone
+  - address
+  - date_of_birth
+  - national_id_like
+  - financial_account_like
+  - medical_term
+  - location
+  - sensitive_phrase
+boundary: "Synthetic privacy review support only; not legal compliance certification."
