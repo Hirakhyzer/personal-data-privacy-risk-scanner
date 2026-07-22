@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Privacy risk scanner architecture">
+  <rect width="1200" height="360" fill="#f8fafc"/>
+  <style>.box{fill:#ffffff;stroke:#334155;stroke-width:2;rx:16}.txt{font-family:Arial,sans-serif;font-size:20px;fill:#0f172a}.sub{font-family:Arial,sans-serif;font-size:14px;fill:#475569}.arr{stroke:#2563eb;stroke-width:3;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+  <rect class="box" x="30" y="115" width="160" height="100"/><text class="txt" x="55" y="155">Documents</text><text class="sub" x="55" y="180">synthetic corpus</text>
+  <line class="arr" x1="190" y1="165" x2="250" y2="165"/>
+  <rect class="box" x="250" y="115" width="170" height="100"/><text class="txt" x="280" y="155">Detection</text><text class="sub" x="280" y="180">PII and sensitive text</text>
+  <line class="arr" x1="420" y1="165" x2="480" y2="165"/>
+  <rect class="box" x="480" y="115" width="170" height="100"/><text class="txt" x="515" y="155">Risk score</text><text class="sub" x="515" y="180">document classes</text>
+  <line class="arr" x1="650" y1="165" x2="710" y2="165"/>
+  <rect class="box" x="710" y="115" width="175" height="100"/><text class="txt" x="745" y="155">Redaction</text><text class="sub" x="745" y="180">action plan</text>
+  <line class="arr" x1="885" y1="165" x2="945" y2="165"/>
+  <rect class="box" x="945" y="115" width="220" height="100"/><text class="txt" x="985" y="155">Report + audit</text><text class="sub" x="985" y="180">figures, JSON, ledger</text>
+  <rect class="box" x="480" y="245" width="170" height="75"/><text class="txt" x="515" y="278">Access log</text><text class="sub" x="515" y="300">role and timing</text>
+  <line class="arr" x1="565" y1="245" x2="565" y2="215"/>
+</svg>
