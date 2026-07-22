@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Privacy review workflow">
+  <rect width="900" height="300" fill="#f8fafc"/>
+  <style>.node{fill:#fff;stroke:#475569;stroke-width:2;rx:14}.txt{font-family:Arial,sans-serif;font-size:18px;fill:#0f172a}.arrow{stroke:#0ea5e9;stroke-width:3;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0ea5e9"/></marker></defs>
+  <rect class="node" x="35" y="105" width="140" height="80"/><text class="txt" x="60" y="150">Scan</text>
+  <line class="arrow" x1="175" y1="145" x2="240" y2="145"/>
+  <rect class="node" x="240" y="105" width="140" height="80"/><text class="txt" x="270" y="150">Classify</text>
+  <line class="arrow" x1="380" y1="145" x2="445" y2="145"/>
+  <rect class="node" x="445" y="105" width="140" height="80"/><text class="txt" x="475" y="150">Redact</text>
+  <line class="arrow" x1="585" y1="145" x2="650" y2="145"/>
+  <rect class="node" x="650" y="105" width="210" height="80"/><text class="txt" x="685" y="150">Human review</text>
+</svg>
